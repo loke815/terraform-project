@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region  = "us-west-2"
+  region  = "us-east-1"
 }
 # this is my ami-Id
 resource "aws_instance" "app_server" {
